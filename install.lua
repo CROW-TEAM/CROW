@@ -69,7 +69,7 @@ RunBot:write([[
 cd $HOME/CROW
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr CROW.lua
-wget "https://raw.githubusercontent.com/CROWTEAM/CROW/main/CROW.lua"
+wget "https://raw.githubusercontent.com/CROW-TEAM/CROW/main/CROW.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./CROW.lua -p PROFILE --bot=$token
